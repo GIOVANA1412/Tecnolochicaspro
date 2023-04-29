@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Giovana A.B">
+    <meta name="description" content="Biografia de Giovana">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Giovana | P.T.B Enfermera General</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="mis imagenes/icon G.jpg">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes//icon G.jpg" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="mis imagenes/yo3.png" alt="Foto de Gio">
+        <h1>Hola,
+          <br>
+           soy Giovana🤍</h1>
+        <h2>Estudio enfermeria general.</h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="mis imagenes/amigos2.jpg" alt="mi escuela">
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoceme</h2>
+        <p class="seccion-texto">Hola!, soy estudiante de enfermeria general, estoy a punto de graduarme y a un paso de iniciar mi vida como universitaria, tengo 17 años pero cuento con experiencia laboral en el hambito hospitalario en salud publica.</p>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Enfermeria para salud publica</p>
+            <p>El enfermero cumple diferentes funciones dentro de su labor, que van desde las asistenciales, hasta administrativas, para por medio de estas contribuir con la salud pública, siempre con ética y compromiso profesional. Funciones de asistencia del enfermero Cuidar la salud de cualquier persona de forma integral, continua y personalizada. </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">IMSS</span>
+              <span class="badge text-bg-primary">ISEM</span>
+              <span class="badge text-bg-primary">ISEMMYM</span>
+              <span class="badge text-bg-primary"></span>
+            </div>
+          </div>
+          <!-- Articulos -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Sitios de apoyo</p>
+            <p>Estas son algunas paginas y portales web que me han sdo de gran ayuda durante la carrera. </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Enferteca</span>
+              <span class="badge text-bg-primary">Mayoclinic</span>
+              <span class="badge text-bg-primary">ilovenurse</span>
+            </div>
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Precursoras de enfermeria</p>
+            <p>Las enfermeras que transformarón los metodos para salvar vidas . </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Virginia Avenel Henderson</span>
+              <span class="badge text-bg-primary">Florence Nightingale</span>
+              <span class="badge text-bg-primary">Dorotea. E. Orem</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis practicas</h2>
+      <h3 class="seccion-descripcion">Estos son algunos de los institutos en donde he realizado practicas profesionales ...</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/hosp1.jpg" alt="Practica 1">
+              <div class="overlay">
+                <p>Practica 1</p>
+                <div class="iconos-contenedor">
+                  <a href="https://salud.edomex.gob.mx/isem/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/hospi2.jpg" alt="Proyecto 2">
+              <div class="overlay">
+                <p>Proyecto 2</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/hos3.jpg" alt="Proyecto 3">
+              <div class="overlay">
+                <p>Proyecto 3</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/p4.jpg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 4</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 5 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/p5.jpg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 5</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 6 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/p6.jpg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 6</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más proyectos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Articulos -->
+    <section class="articulos justify-content-start">
+      <h2 class="seccion-titulo texto-negro">Libros</h2>
+      <div class="card">
+        <div class="card-header">
+          Más relevantes
+        </div>
+        <ul class="list-group list-group-flush">
+          <a href="https://www.bing.com/ck/a?!&&p=c050e62242691136JmltdHM9MTY4MjcyNjQwMCZpZ3VpZD0wZGM4MTc5OC0xNzU1LTYzMmItMjY2Yy0wNTQ5MTYxNDYyNTgmaW5zaWQ9NTIwNQ&ptn=3&hsh=3&fclid=0dc81798-1755-632b-266c-054916146258&psq=libro+susana+rosales&u=a1aHR0cHM6Ly93d3cuYWNhZGVtaWEuZWR1LzMzMDA1Mzc0L0ZVTkRBTUVOVE9TX0RFX0VORkVSTUVSSUFfUk9TQUxFU3BkZg&ntb=1" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+            Susana Rosales- Fundamentos de enfermeria
+            </li>
+          </a>
+          <a href="https://www.bing.com/ck/a?!&&p=77bc52aea2a7f10aJmltdHM9MTY4MjcyNjQwMCZpZ3VpZD0wZGM4MTc5OC0xNzU1LTYzMmItMjY2Yy0wNTQ5MTYxNDYyNTgmaW5zaWQ9NTQ0MQ&ptn=3&hsh=3&fclid=0dc81798-1755-632b-266c-054916146258&psq=libro+instrumental+quir%c3%bargico&u=a1aHR0cHM6Ly93d3cuYWNhZGVtaWEuZWR1LzQ4OTExMTQ3L0lOU1RSVU1FTlRBTF9CQVNJQ09fUVVJUlVSR0lDTw&ntb=1" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Instrumental basico quirurgico
+            </li>
+          </a>
+          <a href="https://www.bing.com/ck/a?!&&p=76fe7e5dd43850bcJmltdHM9MTY4MjcyNjQwMCZpZ3VpZD0wZGM4MTc5OC0xNzU1LTYzMmItMjY2Yy0wNTQ5MTYxNDYyNTgmaW5zaWQ9NTE3Nw&ptn=3&hsh=3&fclid=0dc81798-1755-632b-266c-054916146258&psq=libro+de+pediatria+enfermeria&u=a1aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2ZpbGUvZC8wQjFOaEtQMFE2R1ZtTldSYVgxWjJjbmd5YlUwL3ZpZXc&ntb=1" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Enfermeria Pediatrica Valverde
+            </li>
+          </a>
+          <a href="https://www.bing.com/ck/a?!&&p=b933e1304e616746JmltdHM9MTY4MjcyNjQwMCZpZ3VpZD0wZGM4MTc5OC0xNzU1LTYzMmItMjY2Yy0wNTQ5MTYxNDYyNTgmaW5zaWQ9NTQ0OA&ptn=3&hsh=3&fclid=0dc81798-1755-632b-266c-054916146258&psq=libro+de+enfermeria+psiquiatrica&u=a1aHR0cHM6Ly9iaWJsaW90ZWNhZGVsZnJpa2kuc2l0ZS9lbmZlcm1lcmlhLXBzaXF1aWF0cmljYS1nYWxpYW5hLyM6fjp0ZXh0PUVsJTIwbGlicm8lMjBFbmZlcm1lciVDMyVBRGElMjBQc2lxdWklQzMlQTF0cmljYSUyMCUyOEdhbGlhbmElMjklMjBzZSUyMHB1YmxpYyVDMyVCMyUyMGVuLHNvYnJlJTIwbG9zJTIwZGlmZXJlbnRlcyUyMHRyYXN0b3Jub3MlMjBwc2lxdWklQzMlQTF0cmljb3MlMjB5JTIwc3VzJTIwdHJhdGFtaWVudG9zLg&ntb=1" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Enfermeria priquiatrica
+            </li>
+          </a>
+          <a href="https://www.bing.com/ck/a?!&&p=64da8cbe944d611eJmltdHM9MTY4MjcyNjQwMCZpZ3VpZD0wZGM4MTc5OC0xNzU1LTYzMmItMjY2Yy0wNTQ5MTYxNDYyNTgmaW5zaWQ9NTIwOA&ptn=3&hsh=3&fclid=0dc81798-1755-632b-266c-054916146258&psq=libro+ginecologia&u=a1aHR0cHM6Ly93d3cuZWxzZXZpZXIuY29tL2Jvb2tzL2dvbnphbGV6LW1lcmxvLWdpbmVjb2xvZ2lhL2dvbnphbGV6LWJvc3F1ZXQvOTc4LTg0LTkxMTMtMzg0LTE&ntb=1" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Libro- Ginecologia 
+            </li>
+          </a>
+        </button>
+      </a>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Testimonios</h2>
+      <h3 class="seccion-descripcion">Estas son algunas figuras importantes en enfermeria..</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/f1.jpg" alt="Foto de Gino">
+              <p class="testimonio-texto">Gracias a Florence hoy existen los Hospitales modernos como los conocemos. Ella practicó la enfermería itinerante mientras acompañaba a algunas mujeres en la guerra de Crimea.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Florence. N</p>
+                <p class="cargo">La dama de la lampara</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/f2.jpg" alt="Foto de Nora">
+              <p class="testimonio-texto">Gracias Dorothea es que hoy podemos encontrar enfermeras cariñosas y amables. Fue ella quien se impuso contra el maltrato que le daban a los enfermos mentales. Fue también profesora de enfermería.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Dorothea</p>
+                <p class="cargo">Teorica de la enfermeria Moderna</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/f3.jpg" alt="Foto de Leonardo">
+              <p class="testimonio-texto">Fue una enfermera teorizadora que incorporó los principios fisiológicos y psicológicos a su concepto personal de enfermería.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Virginia. H</p>
+                <p class="cargo">TEDA.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Contáctame para ayudarte a descurir mas sobre la carrera y que tu visión como profesional se vuelva realidad.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="gmail: giovanita154@gmail.com">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="imagenes/icono-blanco.png" alt="Logo del portafolio">
+      <p class="footer-texto text-center">Aprendo y ayudo todos los días.<br> Aprendamos juntos.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://twitter.com/"  target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="https://github.com/freeCodeCamp/freeCodeCamp" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/giovana_14125/?next=%2F" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="mailto:janedoe@micorreo.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Giovana Aldama Betancourt (2023) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
